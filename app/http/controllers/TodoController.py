@@ -34,7 +34,6 @@ class TodoController(Controller):
         return todo
 
 
-
     def update(self):
         subject = self.request.input("subject")
         details = self.request.input("details")
